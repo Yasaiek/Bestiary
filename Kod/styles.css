@@ -1,0 +1,110 @@
+body {
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    background-color: #e6d5b8; /* Kolor tła w stylu pergaminu */
+    color: #8b4513; /* Kolor tekstu */
+}
+@font-face {
+  font-family: MedievalSharp;
+  src: url(Kod/MedievalSharp-Regular.ttf);
+}
+header {
+    background-color: #8b4513; /* Brązowy kolor dla nagłówka */
+    color: #f5deb3; /* Jasnożółty kolor tekstu */
+    text-align: center;
+    padding: 20px 0;
+}
+header img {
+    width: 50px;
+    height: 50px;
+
+  }
+
+main {
+    padding: 20px;
+}
+
+.card {
+    background-color: #f5deb3; /* Jasnożółty kolor tła */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.parchment {
+    background-image: url('parchment.jpg'); /* Ścieżka do obrazu pergaminu */
+    background-size: cover;
+}
+
+.parchment-content {
+    background-color: rgba(255, 255, 255, 0.9); /* Białe tło z lekką przezroczystością */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #8b4513; /* Brązowy kolor stopki */
+    color: #f5deb3; /* Jasnożółty kolor tekstu */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(139, 69, 19, 0.5);
+}
+
+@font-face {
+    font-family: 'MedievalSharp';
+    src: url('MedievalSharp-Regular.ttf') format('truetype');
+}
+
+
+
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
